@@ -1,5 +1,5 @@
 .navbar-custom, .tag-tema {
-    background-color: #8e44ad;
+    background-color: blueviolet;
 }
 /* change the brand and text color */
 .navbar-custom .navbar-brand,
@@ -18,4 +18,9 @@
 
 .tag-tema {
     font-size: 1.5em;
+}
+
+.img-com-fade {
+    -webkit-filter: blur(8px); /* Safari 6.0 - 9.0 */
+    filter: blur(8px);
 }
