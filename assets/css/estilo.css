@@ -60,3 +60,13 @@
   max-width: 500px;
   width:100%;
 }
+
+.jumbotron {
+  position: relative;
+  text-align: center;
+}
+
+.title-article {
+  position: absolute;
+  top: 70%;  
+}
