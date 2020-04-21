@@ -25,8 +25,9 @@
     filter: blur(8px);
 }
 
+/*indicador de cor de cada tipo de conteudo*/
 .badge-primary{
-	background-color: blueviolet;
+	background-color: #7F25D9;
 }
 
 .badge-danger{
@@ -36,3 +37,22 @@
 .badge-warning{
 	background-color: #F2E206;
 }
+
+/*cores do botoes de seleao de filtro de materia/artigo*/
+
+.btn {
+	border-radius: 24px;
+}
+
+.btn-info{
+	background-color: #7F25D9;
+}
+
+.btn-info:hover{
+	background-color: #5C12A6;
+}
+
+.btn-info:active:focus{
+	background-color: #2F0459;
+}
+
