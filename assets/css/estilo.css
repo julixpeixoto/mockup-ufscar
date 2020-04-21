@@ -39,7 +39,6 @@
 }
 
 /*cores do botoes de seleao de filtro de materia/artigo*/
-
 .btn {
 	border-radius: 24px;
 }
@@ -56,3 +55,8 @@
 	background-color: #2F0459;
 }
 
+/*imagens*/
+.img-max {
+  max-width: 500px;
+  width:100%;
+}
