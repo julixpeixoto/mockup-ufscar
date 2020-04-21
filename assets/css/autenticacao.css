@@ -1,0 +1,104 @@
+body {
+	background-color: blueviolet;
+	color: #FFFFFF;
+	font-family: Montserrat;
+}
+
+.autenticacao-link {
+	color: #FFFFFF;
+}
+
+	.autenticacao-link :hover {
+		color: #FFFFFF;
+	}
+
+	.autenticacao-link :visited {
+		color: blue;
+	}
+
+.login-title {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 22px;
+	margin-top: 55px;
+}
+
+.element-center {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.logo {
+	margin-top: 55px;
+	margin-bottom: 55px;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 250px;
+	text-align: center;
+}
+
+	.logo img {
+		max-width: 100%;
+	}
+
+.logo-color {
+	display: none;
+}
+
+.logo-white {
+	display: block;
+}
+
+.btn-login-entrar {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 29px;
+}
+
+.btn-login-email {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 29px;
+}
+
+.btn-login-google {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 29px;
+}
+
+	.btn-login-google img {
+		height: 1rem;
+		margin-top: -3px;
+	}
+
+@media(min-width: 768px) {
+	body {
+		background-color: white;
+		color: blueviolet;
+	}
+
+	.autenticacao-link {
+		color: blueviolet;
+	}
+
+		.autenticacao-link :hover {
+			color: blueviolet;
+		}
+
+		.autenticacao-link :visited {
+			color: blue;
+		}
+
+	.logo-color {
+		display: block;
+	}
+
+	.logo-white {
+		display: none;
+	}
+}
