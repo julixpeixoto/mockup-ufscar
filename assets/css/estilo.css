@@ -70,3 +70,7 @@
   position: absolute;
   top: 70%;  
 }
+
+.voltar {
+  max-width: 400px;
+}

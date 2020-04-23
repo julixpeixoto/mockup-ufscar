@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
+
+    <title>DevGuide :: Artigos</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/carousel/">
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/carousel.css" rel="stylesheet">
+    <link href="assets/css/estilo.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+  <body>
+
+    <header>
+      <nav class="navbar navbar-custom navbar-expand-md navbar-dark fixed-top">
+       
+        <button class="pull-left navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="./artigo.html">Artigos</a>
+            </li>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./video.html">Vídeos</a>
+            </li>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Podcasts</a>
+            </li>
+          </ul>          
+          <form class="form-inline mt-2 mt-md-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Buscar" aria-label="Buscar">
+            <button class="btn my-2 my-sm-0" type="submit"><span class="fa fa-search text-light fa-2x"></span></button>
+          </form>
+        </div>
+        <div class="navbar-brand text-left">
+			<a href="./"><img src="./img/logo-white.png" width="100" alt="Logo do DevGuide"></a>
+		</div>
+        <a href="login.html"><i class="fa fa-user fa-2x text-light"></i></a>
+      </nav>
+    </header>
+
+    <main role="main">
+     
+	 <!-- Page Content -->
+		<div class="container">
+
+			<div class="row">
+
+			  <!-- Post Content Column -->
+			  <div class="col-lg-12">
+
+				<!-- Title -->
+				<h1 class="mt-4">Primeiros passos com Rest Assured</h1>
+
+				<!-- Author -->
+				<p class="lead">
+				  by
+				  <a href="#">Dr Pompeu Pompilho Pomposo </a>
+				</p>
+
+				<hr>
+
+				<!-- Date/Time -->
+				<p>Postado em 21 de Abril de 2020 às 17:27</p>
+				<small class="text-muted">
+					<i class="fa fa-thumbs-up fa-xs"></i> 3k curtidas |
+					<i class="fa fa-hourglass-start fa-xs"></i>  01:58 min |
+					<i class="fa fa-eye fa-xs"></i> 4.1k visualizações.
+				</small>
+
+				<hr>
+
+				<!-- Preview Image -->
+				<img class="img-fluid rounded" src="img/react-carrousel.jpg" alt="">
+
+				<hr>
+
+				<!-- Post Content -->
+				<p>
+					Rest-Assured é um framework open-source que possui suporte para automatizar os métodos GET, POST, PUT, DELETE, HEAD, OPTIONS e TRACE de uma API e permitir fazer validações no header, body e schema da resposta.
+					<a href="http://rest-assured.io/">Restassure.io</a>
+				</p>
+				<h2 id="Configurando o Ambiente">Configurando o Ambiente</h2>
+
+				<p>		<br/> - Configurar o Java (utilizei Open JDK 1.8);
+						<br/> - Baixar a IDE (Eclipse ou IntelliJ);
+				</p>
+
+				<p>
+					Criar um novo projeto Maven, ou converte-lo em um projeto Maven. Isso é necessário para adicionarmos as dependências no arquivo pom.XML que será criado.
+				</p>
+
+				<p>
+					OBS: No Eclipse ou no IntelliJ, será necessário configurar o biblioteca correta do Java, pois automaticamente será utilizada a versão 1.5.
+				</p>
+
+				<p>
+					No Eclipse, acessar as propriedades do projeto > Java Build Path > aba Libraries > remover a biblioteca “J2SE 1.5” E adicionar a JRE do sistema “JRE System LIbrary” > next > ele irá exibir a versão correta > “Apply and close”
+				</p>
+
+				<p>
+					Configurar as dependências do maven, no arquivo pom.XML
+    				<br/> Pesquisar sobre a dependência do Rest Assured no Maven repository, <a href="https://github.com/rest-assured/rest-assured/wiki/GettingStarted">Github/restassured</a> ></a> . O arquivo ficará da seguinte forma:
+
+				</p>
+
+				<p>
+					Ao salvar o arquivo a IDE irá automaticamente baixar as dependências (para visualizar, basta abrir a pasta “Maven Dependencies”
+				</p>
+
+				<h2 id="Primeiro teste">Primeiro teste</h2>
+
+				<p>
+					Criar uma package e em seguida uma nova classe;
+				</p>
+
+				<p>
+					Para implementar os testes, é necessário primeiramente chamar pelo o objeto <b>RestAssured</b>
+					<br/>Importar a classe RestAssured do pacote io.restassured
+				</p>
+
+				<p>Ficou confuso? Vamos usar um exemplo para esclarecer esse ponto. Imagine que você tenha a possibilidade de “curtir” uma publicação em seu site.</p>
+				<hr>
+
+				<!-- Comments Form -->
+				<div class="card my-4">
+				  <h5 class="card-header">Gostou? Deixe seu joinha! <i class="fa fa-thumbs-up fa-lg"></i></h5>
+				  
+				</div>		 
+
+			  </div>
+
+			</div>
+		</div>
+		<!-- /.row -->
+
+      <!-- FOOTER -->
+      <footer class="container">
+        <p class="float-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2020 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+      </footer>
+    </main>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="../../assets/js/vendor/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="../../assets/js/vendor/holder.min.js"></script>
+  </body>
+</html>
