@@ -25,10 +25,24 @@
     filter: blur(8px);
 }
 
+.card-img,
+.card-img-top,
+.card-img-bottom {
+  max-height: 330px !important;
+}
+
 /*indicador de cor de cada tipo de conteudo*/
 .badge-primary{
 	background-color: #7F25D9;
 }
+
+
+
+.audio_podcast{
+  width: 100%;
+  margin-top: 18px;
+}
+
 
 .badge-danger{
 	background-color: #D98E04;
